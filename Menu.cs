@@ -9,6 +9,7 @@ namespace ChoiceMenu
             System.Console.WriteLine("2. Добавить расход");
             System.Console.WriteLine("3. Показать все операции");
             System.Console.WriteLine("4. Показать баланс");
+            System.Console.WriteLine("5. Очистить историю");
             System.Console.WriteLine("0. Выход");
         }
 

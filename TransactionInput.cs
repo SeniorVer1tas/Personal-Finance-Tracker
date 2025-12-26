@@ -21,12 +21,12 @@ namespace financeTrack
                 }
                 else
                 {
-                    return userInput;
+                    return userInput.ToUpper();
                 }
             }
         }
 
-        public static int TransactionAmount()
+        public static int TransactionIncome()
         {
             while (true)
             {
@@ -38,9 +38,17 @@ namespace financeTrack
                 }
                 else
                 {
-                    Console.WriteLine("\nТранзакция успешно добавлена!\n");
                     return userInput;
                 }
+            }
+        }
+        public static int TransactionExpense()
+        {
+            while (true)
+            {
+                Console.Write("Укажите сумму Расходов: \n");
+                int userInput = Convert.ToInt32(Console.ReadLine());
+                return userInput;
             }
         }
     }

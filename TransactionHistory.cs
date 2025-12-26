@@ -31,5 +31,10 @@ namespace OperationHistory
             }
             return balance;
         }
+        public void Clean()
+        {
+            _transactions.Clear();
+            return;
+        }
     }
 }
