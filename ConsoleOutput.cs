@@ -1,4 +1,5 @@
 using Operation;
+using System;
 
 namespace ConsoleHelper
 {
@@ -27,24 +28,5 @@ namespace ConsoleHelper
 			Console.WriteLine("\nТранзакций нет.\n");
 			Console.ForegroundColor = defaultColor;
 		}
-
-		//public static void WriteTypeTransaction(Transaction TypeOperation)
-		//{
-		//	if(TypeOperation == "Доходы")
-		//	{
-		//		ConsoleColor defaultColor = Console.ForegroundColor;
-		//		Console.ForegroundColor = ConsoleColor.Green;
-		//		Console.WriteLine("\nДоходы\n");
-		//		Console.ForegroundColor = defaultColor;
-		//	}
-		//	else if (TypeOperation == "Расходы")
-		//	{
-		//		ConsoleColor defaultColor = Console.ForegroundColor;
-		//		Console.ForegroundColor = ConsoleColor.Red;
-		//		Console.WriteLine("\nРасходы\n");
-		//		Console.ForegroundColor = defaultColor;
-		//	}
-			
-		//}
-	}
+    }
 }

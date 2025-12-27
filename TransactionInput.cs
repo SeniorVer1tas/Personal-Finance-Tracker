@@ -48,6 +48,7 @@ namespace financeTrack
             {
                 Console.Write("Укажите сумму Расходов: \n");
                 int userInput = Convert.ToInt32(Console.ReadLine());
+
                 return userInput;
             }
         }

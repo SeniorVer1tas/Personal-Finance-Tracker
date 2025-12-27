@@ -20,11 +20,11 @@ namespace OperationHistory
             int balance = 0;
             foreach (var t in _transactions)
             {
-                if(t.TypeOperation == "Доход")
+                if(t.TypeOperation == "Доходы")
                 {
                     balance += t.Amount;
                 }
-                else if (t.TypeOperation == "Расход")
+                else if (t.TypeOperation == "Расходы")
                 {
                     balance -= t.Amount;
                 }
